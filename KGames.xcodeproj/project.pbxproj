@@ -8,17 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		242EBE002821AF4E0054C82B /* KGamesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242EBDFF2821AF4E0054C82B /* KGamesApp.swift */; };
-		242EBE022821AF4E0054C82B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242EBE012821AF4E0054C82B /* ContentView.swift */; };
 		242EBE042821AF550054C82B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 242EBE032821AF550054C82B /* Assets.xcassets */; };
 		242EBE072821AF550054C82B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 242EBE062821AF550054C82B /* Preview Assets.xcassets */; };
+		242EBE0E2821AFB20054C82B /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242EBE0D2821AFB20054C82B /* GameView.swift */; };
+		242EBE122821B0150054C82B /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242EBE112821B0150054C82B /* WelcomeView.swift */; };
+		242EBE142821B0380054C82B /* GameColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242EBE132821B0380054C82B /* GameColor.swift */; };
+		242EBE182821B1070054C82B /* BottomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242EBE172821B1070054C82B /* BottomTextView.swift */; };
+		242EBE1A2821B11A0054C82B /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242EBE192821B11A0054C82B /* QuestionView.swift */; };
+		242EBE1D2821B1E40054C82B /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242EBE1C2821B1E40054C82B /* ChoiceTextView.swift */; };
+		242EBE212821B2C80054C82B /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242EBE202821B2C80054C82B /* Game.swift */; };
+		242EBE232821B2DB0054C82B /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242EBE222821B2DB0054C82B /* Question.swift */; };
+		242EBE252821B37A0054C82B /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242EBE242821B37A0054C82B /* GameViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		242EBDFC2821AF4E0054C82B /* KGames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		242EBDFF2821AF4E0054C82B /* KGamesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KGamesApp.swift; sourceTree = "<group>"; };
-		242EBE012821AF4E0054C82B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		242EBE032821AF550054C82B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		242EBE062821AF550054C82B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		242EBE0D2821AFB20054C82B /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		242EBE112821B0150054C82B /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		242EBE132821B0380054C82B /* GameColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameColor.swift; sourceTree = "<group>"; };
+		242EBE172821B1070054C82B /* BottomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTextView.swift; sourceTree = "<group>"; };
+		242EBE192821B11A0054C82B /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		242EBE1C2821B1E40054C82B /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
+		242EBE202821B2C80054C82B /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		242EBE222821B2DB0054C82B /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		242EBE242821B37A0054C82B /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +68,9 @@
 			isa = PBXGroup;
 			children = (
 				242EBDFF2821AF4E0054C82B /* KGamesApp.swift */,
-				242EBE012821AF4E0054C82B /* ContentView.swift */,
+				242EBE1F2821B2860054C82B /* ViewModels */,
+				242EBE1B2821B1980054C82B /* Views */,
+				242EBE1E2821B2790054C82B /* Models */,
 				242EBE032821AF550054C82B /* Assets.xcassets */,
 				242EBE052821AF550054C82B /* Preview Content */,
 			);
@@ -65,6 +83,36 @@
 				242EBE062821AF550054C82B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		242EBE1B2821B1980054C82B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				242EBE1C2821B1E40054C82B /* ChoiceTextView.swift */,
+				242EBE112821B0150054C82B /* WelcomeView.swift */,
+				242EBE0D2821AFB20054C82B /* GameView.swift */,
+				242EBE132821B0380054C82B /* GameColor.swift */,
+				242EBE172821B1070054C82B /* BottomTextView.swift */,
+				242EBE192821B11A0054C82B /* QuestionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		242EBE1E2821B2790054C82B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				242EBE202821B2C80054C82B /* Game.swift */,
+				242EBE222821B2DB0054C82B /* Question.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		242EBE1F2821B2860054C82B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				242EBE242821B37A0054C82B /* GameViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +185,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				242EBE022821AF4E0054C82B /* ContentView.swift in Sources */,
+				242EBE182821B1070054C82B /* BottomTextView.swift in Sources */,
+				242EBE212821B2C80054C82B /* Game.swift in Sources */,
+				242EBE252821B37A0054C82B /* GameViewModel.swift in Sources */,
+				242EBE1D2821B1E40054C82B /* ChoiceTextView.swift in Sources */,
+				242EBE142821B0380054C82B /* GameColor.swift in Sources */,
+				242EBE232821B2DB0054C82B /* Question.swift in Sources */,
+				242EBE1A2821B11A0054C82B /* QuestionView.swift in Sources */,
+				242EBE0E2821AFB20054C82B /* GameView.swift in Sources */,
 				242EBE002821AF4E0054C82B /* KGamesApp.swift in Sources */,
+				242EBE122821B0150054C82B /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
